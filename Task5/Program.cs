@@ -9,7 +9,7 @@ for (int i = 0; i < array.Length; i++)
 }
 Console.Write(max);
 //OR
-for (int e in array)
+foreach (int e in array)
 {
     if (e > max)
     {
